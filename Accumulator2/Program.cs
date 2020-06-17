@@ -8,7 +8,6 @@ namespace Accumulator2
         {
      
             var ans = 0;
-            //var nbr = Convert.ToInt32(ans);
             for (var nbr = 0; nbr <= 50; nbr++) { 
             if (nbr % 5 == 0 || nbr % 7 == 0)
                     ans += nbr;
